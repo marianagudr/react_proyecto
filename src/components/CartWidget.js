@@ -5,7 +5,7 @@ import { brown } from '@material-ui/core/colors';
 
 const CartWidget = () => {
     return (
-        <Badge badgeContent={3} style= {{ color: green[800] }}>
+        <Badge badgeContent={3} color="secondary">
             <ShoppingCartOutlinedIcon style= {{ color: brown[900] }} />
         </Badge>
     )
